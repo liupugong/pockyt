@@ -8,7 +8,7 @@ from collections import OrderedDict
 
 import requests
 
-from .api import API
+from api import API
 
 
 def print_bug_report(message=''):

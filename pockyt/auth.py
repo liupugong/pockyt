@@ -17,8 +17,8 @@ except ImportError:
 import os
 import sys
 
-from .api import API
-from .wrapper import Browser, Network
+from api import API
+from wrapper import Browser, Network
 
 
 class Authenticator(object):

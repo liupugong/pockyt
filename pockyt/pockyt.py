@@ -3,10 +3,10 @@ from __future__ import absolute_import, print_function, unicode_literals, with_s
 import argparse
 import sys
 
-from .api import API
-from .auth import Authenticator
-from .client import Client
-from .wrapper import print_bug_report
+from api import API
+from auth import Authenticator
+from client import Client
+from wrapper import print_bug_report
 
 
 class Pockyt(object):

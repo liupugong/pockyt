@@ -8,10 +8,11 @@ except NameError:
 import sys
 import time
 
-import parse
+import urlparse
+# urlparse in python 2.*; parse in Python 3.*
 
-from .api import API
-from .wrapper import Browser, Network
+from api import API
+from wrapper import Browser, Network
 
 
 class Client(object):
